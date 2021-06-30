@@ -1,0 +1,8 @@
+*.backup
+__pycache__
+backbone/__pycache__
+error.log
+temp.txt
+old*
+logs
+.ipynb_checkpoints

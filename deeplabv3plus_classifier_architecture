@@ -1,0 +1,103 @@
+digraph {
+	graph [bgcolor="#FFFFFF" color="#000000" fontcolor="#000000" fontname=Times fontsize=10 margin="0,0" pad="1.0,0.5" rankdir=LR]
+	node [color="#000000" fillcolor="#E8E8E8" fontcolor="#000000" fontname=Times fontsize=10 margin="0,0" shape=box style=filled]
+	edge [color="#000000" fontcolor="#000000" fontname=Times fontsize=10 style=solid]
+	"/outputs/87" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Shape</td></tr></table>>]
+	"/outputs/88" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Constant</td></tr></table>>]
+	"/outputs/89" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Gather</td></tr></table>>]
+	"/outputs/90" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Shape</td></tr></table>>]
+	"/outputs/91" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Constant</td></tr></table>>]
+	"/outputs/92" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Gather</td></tr></table>>]
+	"/outputs/93" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>GlobalAveragePool</td></tr></table>>]
+	"/outputs/101" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Unsqueeze</td></tr></table>>]
+	"/outputs/102" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Unsqueeze</td></tr></table>>]
+	"/outputs/103" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Concat</td></tr></table>>]
+	"/outputs/104" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Constant</td></tr></table>>]
+	"/outputs/105" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Cast</td></tr></table>>]
+	"/outputs/106" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Shape</td></tr></table>>]
+	"/outputs/107" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Slice</td></tr></table>>]
+	"/outputs/108" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Cast</td></tr></table>>]
+	"/outputs/109" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Div</td></tr></table>>]
+	"/outputs/110" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Concat</td></tr></table>>]
+	"/outputs/111" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Upsample</td></tr></table>>]
+	"/outputs/112" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Concat</td></tr></table>>]
+	"/outputs/120/121" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Dropout</td></tr></table>>]
+	"/outputs/122" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Shape</td></tr></table>>]
+	"/outputs/123" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Constant</td></tr></table>>]
+	"/outputs/124" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Gather</td></tr></table>>]
+	"/outputs/125" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Shape</td></tr></table>>]
+	"/outputs/126" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Constant</td></tr></table>>]
+	"/outputs/127" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Gather</td></tr></table>>]
+	"/outputs/128" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Unsqueeze</td></tr></table>>]
+	"/outputs/129" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Unsqueeze</td></tr></table>>]
+	"/outputs/130" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Concat</td></tr></table>>]
+	"/outputs/131" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Constant</td></tr></table>>]
+	"/outputs/132" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Cast</td></tr></table>>]
+	"/outputs/133" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Shape</td></tr></table>>]
+	"/outputs/134" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Slice</td></tr></table>>]
+	"/outputs/135" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Cast</td></tr></table>>]
+	"/outputs/136" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Div</td></tr></table>>]
+	"/outputs/137" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Concat</td></tr></table>>]
+	"/outputs/138" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Upsample</td></tr></table>>]
+	"/outputs/139" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Concat</td></tr></table>>]
+	"/outputs/147" [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1</td></tr></table>>]
+	15398166140447370321 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	16626309887599335636 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	17300811258511931751 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	4449759696787622856 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	17358889533969069092 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	14810862323568363704 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	1060603912111860721 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv1x1 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	2136159074535190808 [label=<<table border='0' cellborder='0' cellpadding='0'><tr><td cellpadding='6'>Conv3x3 &gt; BatchNorm &gt; Relu</td></tr></table>>]
+	"/outputs/87" -> "/outputs/89"
+	"/outputs/88" -> "/outputs/89"
+	"/outputs/89" -> "/outputs/101"
+	"/outputs/90" -> "/outputs/92"
+	"/outputs/91" -> "/outputs/92"
+	"/outputs/92" -> "/outputs/102"
+	"/outputs/101" -> "/outputs/103"
+	"/outputs/102" -> "/outputs/103"
+	"/outputs/103" -> "/outputs/105"
+	"/outputs/104" -> "/outputs/110"
+	"/outputs/105" -> "/outputs/109"
+	"/outputs/106" -> "/outputs/107"
+	"/outputs/107" -> "/outputs/108"
+	"/outputs/108" -> "/outputs/109"
+	"/outputs/109" -> "/outputs/110"
+	"/outputs/110" -> "/outputs/111"
+	"/outputs/111" -> "/outputs/112" [label="2x256x64x64"]
+	"/outputs/120/121" -> "/outputs/133" [label="2x256x64x64"]
+	"/outputs/120/121" -> "/outputs/138" [label="2x256x64x64"]
+	"/outputs/122" -> "/outputs/124"
+	"/outputs/123" -> "/outputs/124"
+	"/outputs/124" -> "/outputs/128"
+	"/outputs/125" -> "/outputs/127"
+	"/outputs/126" -> "/outputs/127"
+	"/outputs/127" -> "/outputs/129"
+	"/outputs/128" -> "/outputs/130"
+	"/outputs/129" -> "/outputs/130"
+	"/outputs/130" -> "/outputs/132"
+	"/outputs/131" -> "/outputs/137"
+	"/outputs/132" -> "/outputs/136"
+	"/outputs/133" -> "/outputs/134"
+	"/outputs/134" -> "/outputs/135"
+	"/outputs/135" -> "/outputs/136"
+	"/outputs/136" -> "/outputs/137"
+	"/outputs/137" -> "/outputs/138"
+	"/outputs/138" -> "/outputs/139" [label="2x256x128x128"]
+	15398166140447370321 -> "/outputs/122" [label="2x48x128x128"]
+	15398166140447370321 -> "/outputs/125" [label="2x48x128x128"]
+	15398166140447370321 -> "/outputs/139" [label="2x48x128x128"]
+	16626309887599335636 -> "/outputs/112" [label="2x256x64x64"]
+	17300811258511931751 -> "/outputs/112" [label="2x256x64x64"]
+	4449759696787622856 -> "/outputs/112" [label="2x256x64x64"]
+	17358889533969069092 -> "/outputs/112" [label="2x256x64x64"]
+	"/outputs/93" -> 14810862323568363704 [label="2x2048x1x1"]
+	14810862323568363704 -> "/outputs/106" [label="2x256x1x1"]
+	14810862323568363704 -> "/outputs/111" [label="2x256x1x1"]
+	"/outputs/112" -> 1060603912111860721 [label="2x1280x64x64"]
+	1060603912111860721 -> "/outputs/120/121" [label="2x256x64x64"]
+	"/outputs/139" -> 2136159074535190808 [label="2x304x128x128"]
+	2136159074535190808 -> "/outputs/147" [label="2x256x128x128"]
+	graph [rankdir=TD]
+}
